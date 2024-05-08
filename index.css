@@ -71,7 +71,7 @@ span {
 }
 
 #skills {
-    height: 100vh;
+    height:max-content;
 }
   
   @keyframes gradient {
