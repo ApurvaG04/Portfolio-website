@@ -1,0 +1,342 @@
+html, body {
+    width: 100%;
+    height:100%;
+    font-family:'Roboto';
+  }
+  
+.home {
+      background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+      background-size: 400% 400%;
+      height:max-content;
+      animation: gradient 15s ease infinite;
+      padding-top: 6vh;
+      padding-bottom: 6vh;
+}
+
+.picture {
+  border-radius: 160px;
+  border: 5px solid black;
+}
+
+#project, #resume {
+  background: linear-gradient(-45deg, #e73c7e, #23a6d5);
+  background-attachment: fixed;
+}
+
+#about {
+  text-align: justify;
+}
+
+.project {
+  background-color: white;
+  border-radius: 20px;
+}
+
+.heading-button {
+  outline-width: 2px;
+  outline-color: white;
+  outline-style: groove;
+  border-radius: 5px;
+
+}
+
+nav.nav-fixed {
+  width: 100%;
+  position:fixed;
+  /* background-color: black; */
+  box-shadow: 5px -1px 12px -5px grey;
+  transition: 0.3s ease-in-out;
+}
+
+.nav-passive {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  height:max-content;
+  animation: gradient 15s ease infinite;
+}
+
+
+.nav-active {
+  background-color: black;
+  box-shadow: 5px -1px 12px -5px grey;
+}
+
+span {
+    padding: 10px;
+}
+
+#skills > p > span > img {
+    height: 70px;
+    width: 70px;
+}
+
+#skills {
+    height: 100vh;
+}
+  
+  @keyframes gradient {
+      0% {
+          background-position: 0% 50%;
+      }
+      50% {
+          background-position: 100% 50%;
+      }
+      100% {
+          background-position: 0% 50%;
+      }
+  }
+
+.footer, #certifications {
+  background: linear-gradient(-45deg, #e73c7e, #23a6d5);
+  /* height: 100vh; */
+}
+
+.cert-bkg {
+  background-color: white;
+}
+
+#message, #subject, #email {
+  background-color: #6dc5e587;
+}
+
+.wave {
+    animation-duration: 2.1s;
+    animation-iteration-count: infinite;
+    animation-name: wave-animation;
+    display: inline-block;
+    transform-origin: 70% 70%;
+    height: 50px;
+    width: 50px;
+    
+}
+
+a:link { 
+  text-decoration: none; 
+} 
+a:visited { 
+  text-decoration: none; 
+} 
+a:hover { 
+  text-decoration: none; 
+} 
+a:active { 
+  text-decoration: none; 
+}
+
+.experience-timeline {
+  
+  background: linear-gradient(-45deg, #e73c7e7f, #23a5d575);
+  height: 100vh;
+  width: 10px;
+}
+
+.experience-points {
+  margin-left: -5px;
+  background-color: rgb(81, 26, 81);
+  height: 30px;
+  width: 100px;
+  border-radius: 10px;
+  
+}
+
+.experience-masters {
+  margin-top: 5vh;
+  content: "2022-2024";
+}
+
+.experience-work {
+  margin-top: 40vh;
+  content: "2018-2021";
+}
+
+.experience-bachelors {
+  margin-top: 40vh;
+}
+
+
+
+.css-typing p {
+  border-right: .15em solid orange;
+  font-family: "Courier";
+  font-size: 20px;
+  white-space: nowrap;
+  overflow: hidden;
+  color: white;
+}
+.css-typing p:nth-child(1) {
+  width: 11.5em;
+  -webkit-animation: type 2s steps(40, end);
+  animation: type 2s steps(40, end);
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.css-typing p:nth-child(2) {
+  width: 11.5em;
+  opacity: 0;
+  -webkit-animation: type2 2s steps(40, end);
+  animation: type2 2s steps(40, end);
+  -webkit-animation-delay: 2s;
+  animation-delay: 2s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.css-typing p:nth-child(3) {
+  width: 9em;
+  opacity: 0;
+  -webkit-animation: type2 2s steps(20, end);
+  animation: type2 2s steps(20, end);
+  -webkit-animation-delay: 4s;
+  animation-delay: 4s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.css-typing p:nth-child(4) {
+    width: 9em;
+    opacity: 0;
+    -webkit-animation: type2 2s steps(20, end);
+    animation: type2 2s steps(20, end);
+    -webkit-animation-delay: 6s;
+    animation-delay: 6s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+  }
+
+  .css-typing p:nth-child(5) {
+    width: 6em;
+    opacity: 0;
+    -webkit-animation: type2 2s steps(20, end);
+    animation: type2 2s steps(20, end);
+    -webkit-animation-delay: 8s;
+    animation-delay: 8s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+  }
+
+.contact-card {
+  align-items: center;
+  background-color: white;
+}
+.contact-headline {
+  text-align: center;
+}
+
+@keyframes type {
+  0% {
+    width: 0;
+  }
+  99.9% {
+    border-right: .15em solid orange;
+  }
+  100% {
+    border: none;
+  }
+}
+
+@-webkit-keyframes type {
+  0% {
+    width: 0;
+  }
+  99.9% {
+    border-right: .15em solid orange;
+  }
+  100% {
+    border: none;
+  }
+}
+
+@keyframes type2 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  99.9% {
+    border-right: .15em solid orange;
+  }
+  100% {
+    opacity: 1;
+    border: none;
+  }
+}
+
+@-webkit-keyframes type2 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  99.9% {
+    border-right: .15em solid orange;
+  }
+  100% {
+    opacity: 1;
+    border: none;
+  }
+}
+
+@keyframes type3 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes type3 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+@-webkit-keyframes blink {
+  50% {
+    border-color: tranparent;
+  }
+}
+
+@keyframes wave-animation {
+    0% {
+        transform: rotate(0deg);
+    }
+    10% {
+        transform: rotate(14deg);
+    }
+    20% {
+        transform: rotate(-8deg);
+    }
+    30% {
+        transform: rotate(14deg);
+    }
+    40% {
+        transform: rotate(-4deg);
+    }
+    50% {
+        transform: rotate(10deg);
+    }
+    60% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
