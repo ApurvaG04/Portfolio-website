@@ -7,7 +7,7 @@ window.onscroll = () => {
         navbar.classList.remove('nav-passive');
     } else {
         navbar.classList.remove('nav-active');
-        // navbar.classList.add('nav-passive');
+        navbar.classList.add('nav-passive');
     }
 };
 
